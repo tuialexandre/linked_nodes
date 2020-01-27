@@ -2,10 +2,13 @@ class Node:
     def __init__(self, value=None):
         self.value = value
         self.next_node = None
+
     def set_next_node(self, next_node):
         self.next_node = next_node
+
     def get_next_node(self):
         return self.next_node
+
 
 class NodeList:
     def __init__(self, values=None):
@@ -56,4 +59,3 @@ class NodeList:
 
     def get_head_node(self):
         return self.node_head
-
